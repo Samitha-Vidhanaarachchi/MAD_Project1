@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">TheStore</string>
     <string name="delivery">Place Your Delivery</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="address" translatable="false">Address</string>
+    <string name="pName" translatable="false">Product Name</string>
+    <string name="qty" translatable="false">Quantity</string>
+    <string name="total" translatable="false">Total</string>
+    <string name="price">Price</string>
+    <string name="product">Laptop</string>
+    <string name="prc">75,000</string>
+    <string name="request">Request</string>
 </resources>
