@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TheStore</string>
+    <string name="app_name">Enigma_MyAccount</string>
     <string name="delivery">Place Your Delivery</string>
     <string name="name" translatable="false">Name</string>
     <string name="address" translatable="false">Address</string>
@@ -20,4 +20,12 @@
     <string name="editAcc">Edit Profile</string>
     <string name="viewDelivery">View Delivery Details</string>
     <string name="viewCart">View My Cart</string>
+    <string name="reg">Register</string>
+    <string name="regBtn">SignUp</string>
+    <string name="pw">Password</string>
+    <string name="cnfrm">Confirm Password</string>
+    <string name="updateBtn">Update</string>
+    <string name="editBtn">Delete</string>
+    <string name="signin">Sign In</string>
+    <string name="login">Log In</string>
 </resources>

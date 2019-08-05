@@ -24,7 +24,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintHorizontal_bias="0.458"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/bg" />
@@ -251,25 +251,9 @@
                 app:layout_constraintTop_toTopOf="@+id/imageView3"
                 app:layout_constraintVertical_bias="0.495" />
 
-            <EditText
-                android:id="@+id/editText2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginBottom="8dp"
-                android:ems="15"
-                android:inputType="textPersonName"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.324"
-                app:layout_constraintStart_toStartOf="parent" />
-
             <Button
                 android:id="@+id/viewCart"
-                android:layout_width="102dp"
+                android:layout_width="164dp"
                 android:layout_height="47dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
@@ -280,29 +264,51 @@
                 android:text="@string/viewCart"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView3"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.443"
+                app:layout_constraintHorizontal_bias="0.445"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/imageView3"
-                app:layout_constraintVertical_bias="0.821" />
+                app:layout_constraintVertical_bias="0.785" />
 
             <Button
                 android:id="@+id/editProfile"
-                android:layout_width="105dp"
-                android:layout_height="47dp"
-                android:layout_marginEnd="168dp"
-                android:layout_marginRight="168dp"
+                android:layout_width="164dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@android:color/holo_green_light"
                 android:text="@string/editAcc"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView3"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.445"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/imageView3"
-                app:layout_constraintVertical_bias="0.75" />
+                app:layout_constraintVertical_bias="0.724" />
+
+            <Button
+                android:id="@+id/editProfile2"
+                android:layout_width="164dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/UpdateBtn"
+                android:text="Delete Account"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.445"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.932" />
 
             <Button
                 android:id="@+id/viewDel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="182dp"
+                android:layout_height="51dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
@@ -313,10 +319,10 @@
                 android:text="@string/viewDelivery"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView3"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintHorizontal_bias="0.446"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.911" />
+                app:layout_constraintVertical_bias="0.871" />
 
             <TextView
                 android:id="@+id/textView30"
@@ -327,17 +333,15 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
-                android:layout_marginBottom="8dp"
                 android:text="@string/account"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="36sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/editText2"
+                app:fontFamily="sans-serif-black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.481"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/imageView3"
-                app:layout_constraintVertical_bias="0.023" />
+                app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
