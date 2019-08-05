@@ -7,7 +7,17 @@
     <string name="qty" translatable="false">Quantity</string>
     <string name="total" translatable="false">Total</string>
     <string name="price">Price</string>
-    <string name="product">Laptop</string>
     <string name="prc">75,000</string>
     <string name="request">Request</string>
+    <string name="view">My Deliveries</string>
+    <string name="Pr1">HP</string>
+    <string name="amount">3</string>
+    <string name="account">My Account</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Contact Number</string>
+    <string name="editAcc">Edit Profile</string>
+    <string name="viewDelivery">View Delivery Details</string>
+    <string name="viewCart">View My Cart</string>
 </resources>
